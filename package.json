@@ -18,9 +18,12 @@
     "url": "https://github.com/annazuzkova/goit-js-hw-12-countries/issues"
   },
   "dependencies": {
+    "handlebars": "^4.7.8",
+    "lodash": "^4.17.21",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.6.0",
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
