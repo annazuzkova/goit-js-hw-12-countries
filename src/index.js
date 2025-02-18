@@ -39,4 +39,4 @@ const renderCountry = () => {
   });
 };
 
-input.addEventListener('change', renderCountry);
+input.addEventListener('change', _.debounce(renderCountry, 5000));
