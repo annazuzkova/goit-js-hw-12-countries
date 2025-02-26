@@ -1,6 +1,7 @@
 import { fetchCountries } from './api/fetchCountries';
 import Handlebars from 'handlebars';
 import country from 'bundle-text:./templates/country.hbs';
+import { _debounce } from 'lodash';
 
 const input = document.querySelector('.input');
 const countryFindlist = document.querySelector('.country-findlist');
